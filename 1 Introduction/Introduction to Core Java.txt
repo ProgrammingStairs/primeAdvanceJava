@@ -1,0 +1,145 @@
+Introduction to core java
+--------------------------
+
+Language : Acts as a medium of communication
+
+Programming Language : It is a set of instructions, commands and other syntaxes used to create a software.
+
+-- Procedure oriented programming Language
+-- Object oriented programming Language
+-- Functional programming language
+   |-- java8
+        |-- lambda expression
+        |-- method reference
+        |-- predicate
+
+
+class Demo{
+    public static void main(String args[]){
+        int a = 012;
+        System.out.println(a); // output : 10
+        int b = 0x12;
+        System.out.println(b); // output : 18
+    }
+}
+
+int a = 012; // octal(0-7) number system
+        1 x 8^1 + 2 x 8^0
+        1 x 8   + 2 x 1
+        8 + 2 = 10
+
+int b = 0x12; // hexadecimal(0-15) number system
+        1 x 16^1 + 2 x 16^0
+        1 x 16   + 2 x 1
+        16 + 2 = 18
+
+int c = 0xa12; // hexadecimal(0-15) number system
+        a x 16^2 + 1 x 16^1 + 2 x 16^0
+        10 x 256 + 1 x 16   + 2 x 1
+        2560 + 16 + 2 = 2578
+
+
+class Hello extends Object{
+    public static void main(String args[]){
+        System.out.println("Hello World");
+    }
+}
+
+Object
+|-- toString()
+|-- hashCode()
+|-- equals()
+|-- getClass()
+|-- finalize()
+|-- clone() 
+|-- wait()
+    |-- wait(one arg)
+    |-- wait(one arg , two arg)
+|-- notify()
+|-- notifyAll() 
+
+control statement 
+|-- sequential control statement
+|-- conditional control statement 
+|-- switch control statement 
+|-- looping control statement 
+    |-- entry control loop
+        |-- for, while
+    |-- exit control loop
+        |-- do while 
+    |-- for each
+
+Array
+|-- one dimensional
+|-- two dimensional
+    |-- Jagged array
+|-- multidimensional 
+
+Array of object 
+
+Product p1 = new Product();
+Product p2 = new Product();
+Product p3 = new Product();
+     |              |
+Product pn = new Product();
+
+Product pobj[] = new Product[5]; // reference array 
+pobj[0] = null
+
+pobj[0] = new Product();
+pobj[1] = new Product();
+pobj[2] = new Product();
+pobj[3] = new Product();
+pobj[4] = new Product();
+
+Product pobj[] = new Product[5]; // array of object 
+pobj[0] = Product@23ab34
+
+------------------------------
+primitive type casting 
+ byte a=5,b=6;
+ int c = a+b;
+ byte d = (byte)(a+b);
+
+ byte x = 130;
+ sop(x);  // -126
+          126 127 -128 -127 -126
+                  128   129  130  
+-----------------------------------------------
+
+OOPS Concept
+-------------
+
+1. object 
+
+  Demo obj = new Demo();
+
+2. class
+3. polymorphism
+   |-- compile time
+       |-- method overloading
+   |-- run time
+       |-- method overriding + upcasting
+
+       protected void show(){}
+            | override
+       public void show(){}
+ 
+4. encapsulation
+   |-- pojo class
+   |-- bean class
+
+5. inheritance 
+
+
+class Parent{
+    Parent()-------- A 
+}
+class Child{
+    Child(){
+        super(); 
+        ------------- B
+    } 
+}
+
+6. Abstraction 

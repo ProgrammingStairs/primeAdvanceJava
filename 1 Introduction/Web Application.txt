@@ -1,0 +1,53 @@
+Web Application : Application which runs on the browser and whose execution takes place on the server. It basically follows client server architecture. 
+
+       |------------request----------->
+     client  <-----HTTP------>      server
+      <-------------response----------|
+
+      HTTP : Hyper Text Transfer Protocol
+      stateless protocol
+
+Web Application 
+|-- FrontEnd
+    |-- Web Designing
+        |-- Web Technologies
+            |-- Html5
+                |-- Structure of web page | web site
+                |-- focuses on tags
+            |-- Css3
+                |-- Provides styling effects
+                |-- focuses on properties
+            |-- Media Query
+                |-- Responsiveness
+            |-- Bootstrap5
+                |-- Responsiveness
+                |-- internally uses media Query 
+                |-- focuses on class
+            |-- JavaScript
+                |-- client side | server side
+                |-- validation + events
+            |-- React | Angular
+                |-- React deals with virtual dom
+
+|-- BackEnd
+    |-- Web Development
+        |-- Programming Language
+            |-- Java, php, Python , .net etc
+        |-- Database
+            |-- RDBMS (Relational database management system)
+                |-- data is going to be stored in tables
+                |-- structured
+                |-- MySQL, SQL, Postgre, Oracle etc
+                |-- Tools 
+                    |-- ORM Tool (Object Relational Mapping)
+                        |-- Sequelize, TypeORM, Hibernate etc
+            |-- NoSQL (Not Only Structured Query Language)
+                |-- data is going to be stored in key value pair
+                |-- semi structured or unstructured
+                |-- Mongodb, Cassendra, Reddis etc
+                |-- Tools 
+                    |-- ODM Tool (Object Document Mapping)
+                        |-- Mongoose etc
+        |-- server
+        |-- server maintenance
+        |-- API (Application Programming Interface)

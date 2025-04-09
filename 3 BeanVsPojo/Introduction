@@ -1,0 +1,28 @@
+Bean Vs Pojo class
+------------------
+
+Pojo class (Plain Old Java Object)
+----------------------------------
+Pojo class does not follows any other special restrictions other than those provided by Java Language Specification (JLS)
+
+1. Pojo class can implements Serializable interface.
+
+Serializable interface is a markup interface which simply marks your class in such a way that it represents this class object we need to convert into another format so that it is applicable to write in a file or in database.
+
+2. Pojo class can contains default or parameterized constructor.
+
+3. Data members can be public , private, protected or default (package private).
+
+4. Member Functions can be public , private, protected or default (package private).
+
+Bean class
+----------
+Bean class follows other special restrictions other than those provided by Java Language Specification (JLS)
+
+1. Bean class must implements Serializable interface.
+
+2. Bean class must contains default constructor.
+
+3. Data members must be private.
+
+4. Member Functions must be public (We needs to create getter setter here).
